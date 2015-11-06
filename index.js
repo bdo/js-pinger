@@ -8,7 +8,7 @@ var tau = 2 * Math.PI;
 var n = 0;
 var b = baudio(function (t) {
   var freq = 500;
-  return 0.02*Math.sin(tau * t * freq);
+  return 0.03*Math.sin(tau * t * freq);
 });
 
 var domain = process.argv[2] || 'google.com';
